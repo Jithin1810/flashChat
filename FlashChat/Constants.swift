@@ -9,9 +9,10 @@ import Foundation
 struct K {
     static let appName = "⚡️FlashChat"
     static let cellIdentifier = "ReusableCell"
-    static let cellNibName = "MessageCell"
-    static let registerSegue = "registerVc"
-    static let loginSegue = "loginVc"
+    static let cellNibName = "ChatTableViewCell"
+    static let registerVc = "registerVc"
+    static let loginVc = "loginVc"
+    static let chatVc = "chatVc"
     
     struct BrandColors {
         static let purple = "BrandPurple"
