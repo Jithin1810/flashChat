@@ -12,9 +12,11 @@ class ChatTableViewCell: UITableViewCell {
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var rightimageView: UIImageView!
     
+    @IBOutlet weak var leftImageView: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        messageBubble.layer.cornerRadius = messageBubble.frame.size.height/5
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
